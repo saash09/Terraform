@@ -47,7 +47,7 @@ jobs:
           ARM_TENANT_ID: ${{ secrets.TENANT_ID }}
         run: terraform init
       
-      - name: Terraform Plan
+      - name: Terraform Plan 
         id: plan
         env:
           ARM_CLIENT_ID: ${{ secrets.CLIENT_ID }}
