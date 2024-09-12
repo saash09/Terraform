@@ -65,6 +65,7 @@ jobs:
           ARM_TENANT_ID: ${{ secrets.TENANT_ID }}
         run: terraform validate
         
+
         
       - name: Terraform apply 
         id: apply 
