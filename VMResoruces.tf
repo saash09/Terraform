@@ -5,7 +5,7 @@ resource "azurerm_virtual_machine" "vm1" {
   network_interface_ids = [azurerm_network_interface.nic1.id]
   vm_size               = "Standard_DS1_v2"
   storage_os_disk {
-    name = "vishnudisk1"
+    name = "araodisk"
     caching = "ReadWrite"
     managed_disk_type = "Standard_LRS"
     create_option = "FromImage"
